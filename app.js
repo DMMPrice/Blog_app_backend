@@ -4,7 +4,7 @@ const cors = require("cors")
 const path = require("path")
 
 const IndexRoute = require("./Routers/index")
-const connectDatabase = require("./Helpers/database/connnectDatabase")
+const connectDatabase = require("./Helpers/Database/connnectDatabase")
 
 dotenv.config({
     path:  '../Backend/.env'
