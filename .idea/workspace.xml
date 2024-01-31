@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d07a525-4bc0-49d3-9a5f-3ca7cef94035" name="Changes" comment="DB spelling corrected">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4d07a525-4bc0-49d3-9a5f-3ca7cef94035" name="Changes" comment="Server working code">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helpers/Database/connnectDatabase.js" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Database/connnectDatabase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/input/inputHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/input/inputHelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/comment.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/Models/comment.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/story.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/Models/story.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/Models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ghosh/OneDrive/Desktop/React/Blog_app_backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ghosh/OneDrive/Desktop/EtherealEclat&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghosh\OneDrive\Desktop\React\Blog_app_backend" />
@@ -88,7 +95,9 @@
       <updated>1706358484269</updated>
       <workItem from="1706358485280" duration="942000" />
       <workItem from="1706359502368" duration="1065000" />
-      <workItem from="1706364037150" duration="2158000" />
+      <workItem from="1706364037150" duration="2223000" />
+      <workItem from="1706461477208" duration="33000" />
+      <workItem from="1706668486980" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="User API Done">
       <option name="closed" value="true" />
@@ -106,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706364636704</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Server working code">
+      <option name="closed" value="true" />
+      <created>1706366271264</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706366271264</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +144,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="User API Done" />
     <MESSAGE value="DB spelling corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB spelling corrected" />
+    <MESSAGE value="Server working code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server working code" />
   </component>
 </project>
